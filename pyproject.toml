@@ -1,0 +1,15 @@
+[tool.poetry]
+name = "the-first-nlp-project"
+version = "0.1.0"
+description = "ODS project by Nikita Venediktov"
+authors = ["NikitaV <n.venediktov@gmail.com>"]
+readme = "README.md"
+packages = [{include = "the_first_nlp_project"}]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
