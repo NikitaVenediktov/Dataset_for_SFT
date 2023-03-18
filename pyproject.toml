@@ -9,6 +9,7 @@ packages = [{include = "the_first_nlp_project"}]
 [tool.poetry.dependencies]
 python = "^3.10"
 spacy = "^3.5.1"
+navec = "^0.10.0"
 
 
 [tool.poetry.group.dev.dependencies]

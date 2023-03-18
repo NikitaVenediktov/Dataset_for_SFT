@@ -718,6 +718,21 @@ files = [
 ]
 
 [[package]]
+name = "navec"
+version = "0.10.0"
+description = "Compact high quality word embeddings for russian language"
+category = "main"
+optional = false
+python-versions = "*"
+files = [
+    {file = "navec-0.10.0-py3-none-any.whl", hash = "sha256:c4e24519ed5af3f6984f763c61c3a281b2923b59c72b88ea8c1c11aa81265e18"},
+    {file = "navec-0.10.0.tar.gz", hash = "sha256:4f23474b1c279af6c605f84e7873e87c47ca58b0c538a3f9d30d90c609c9fd21"},
+]
+
+[package.dependencies]
+numpy = "*"
+
+[[package]]
 name = "nest-asyncio"
 version = "1.5.6"
 description = "Patch asyncio to allow nested event loops"
@@ -1640,4 +1655,4 @@ files = [
 [metadata]
 lock-version = "2.0"
 python-versions = "^3.10"
-content-hash = "95a36edab98051d085f0f1afb79297cfa90e621d6c120d8267925918178d0364"
+content-hash = "c0eca3418e59ca28994f097318b5a65569f4b02bd03985b449007e891c14b958"
