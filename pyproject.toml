@@ -19,6 +19,9 @@ ipywidgets = "^8.0.4"
 nlpaug = "^1.1.11"
 transformers = "^4.27.1"
 sacremoses = "^0.0.53"
+deeppavlov = "^1.1.1"
+slovnet = "^0.6.0"
+ipymarkup = "^0.9.0"
 
 
 [tool.poetry.group.dev.dependencies]
